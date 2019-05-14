@@ -9,6 +9,7 @@ spl_autoload_register(
 );
 
 $reports[] = new DailyReport (272, 815);
+//These no longer works because Reports was changed to ABSTRACT.
 //$reports[] = new Reports (21090501, 271, 812);
 //$reports[] = new Reports (21090401, 271, 812);
 //$reports[] = new Reports (21090501, 272, 357);
